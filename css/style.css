@@ -1,0 +1,207 @@
+body {
+	background-image: url('https://image.freepik.com/free-photo/close-up-of-pink-blush-glitter-textured-background_53876-63515.jpg');
+	background-position: center center;
+	background-repeat:  repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	}
+
+.container {background-color: white;}
+
+	/*    NAVIGACIJA */
+
+
+.navbar-default {border: none;}
+#bs-example-navbar-collapse-1 .navbar-nav li.active > a {
+	background-color: pink;
+	color: #fff;
+	}
+.navbar-nav {
+			float: none;
+			text-align: center;
+			color: #c7177a;}
+.navbar-nav li {display: inline-block;float: none;}
+.navbar-toggle {background-color: pink;}
+
+.navbar-nav>li>a{
+					font-family: 'Exo 2', sans-serif;
+					font-size: 1.7rem;
+					margin: 0;
+					color: #c7177a;
+				}
+.dropdown-menu>li>a {
+	border-bottom: 1px solid #c7177a;
+					}			
+.navbar-brand{
+			padding: 0;
+			}
+.navbar-default {
+	background-color: white;
+				}
+
+
+			/*   KRAJ NAVIGACIJE */
+
+
+			/* DRUGI DEO - JUMBOTRON */
+
+.jumbotron {
+	background-color: transparent;
+	padding: 5rem;
+ 	}
+.druga {
+	background-image: url('img/viso.png');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	}
+
+		/* KRAJ DRUGOG DELA */
+
+
+.carousel-caption {color: black;}
+
+
+		/* DIZAJN TRECEG DELA SA GRID SISTEMOM */
+
+.col-sm-6 button, p {
+	font-family: 'Exo 2', sans-serif; 
+	}
+.tekst {font-size: 1.5rem;
+		line-height: 3.2rem;
+		text-align: center;
+		padding-top: 1rem;
+		padding-left: 3rem;}
+
+.col-sm-6 {height: 30%;
+			margin: 0;
+		}
+
+.col-sm-6>a {text-decoration: none;}
+
+.tekst-posetite {font-size: 1.7rem;
+		line-height: 5rem;
+		font-family: 'Exo 2', sans-serif;
+		font-weight: 0.3rem;
+
+}
+
+
+
+		/* KRAJ TRECEG DELA SA GRID SISTEMOM */
+
+
+.page-header{
+	border-bottom: 3px solid #dea8c6;
+	font-family: 'Exo 2', sans-serif;
+
+}
+		
+
+	/*    FOOTER */
+
+.label{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1.4rem;
+	letter-spacing: 0.3rem;
+	text-decoration: none;
+color: #c9177a;}
+
+.label a {text-decoration: none;
+			color: #c9177a;}
+
+.label a:hover {color: #c9177a;}
+
+.progress-bar {background-color:#dea8c6; 
+				display: inline-block;}
+
+.sekcija {
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	margin-top: 5%;
+	color: white;
+	width: 100%;
+ 	margin-top: 7.4%;
+
+	}			
+
+
+	
+
+	/*   MAPA */
+
+.map-responsive{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}		
+
+/* KRAJ MAPE */	
+
+.footer-social { 
+	border-right: 1px solid white;
+	
+
+	
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 0.3rem;
+
+	}
+.footer-rv {
+	
+	border-right: 1px solid white;
+
+	
+
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 0.3rem;
+}
+
+.footer-list { 
+	border-right: 1px solid white;
+	
+	
+	
+	font-family: 'Exo 2', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 0.3rem;
+}
+.footer-list li a { color: white; }
+.footer-list li a:hover {color: #c9177a;
+	transition: color 0.4s ease-in ;
+							text-decoration: none;}
+
+
+							/* KRAJ FOOTERA */
+.dugme {
+	width: 100%;
+	margin-bottom: 2%;
+	background-color: #dea8c6;
+}
+.dugme a { text-decoration: none;
+			color: white; }
+.col-sm-6 button:hover {background-color: #dea8c6;}
+.col-sm-6 button a:hover {color: #c9177a;}		
